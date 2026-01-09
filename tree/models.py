@@ -12,3 +12,10 @@ class Node(db.Model):
         db.ForeignKey("nodes.id", ondelete="CASCADE"),
         nullable=True
     )
+
+    children = db.relationship(
+        "Node",
+        cascade="all, delete-orphan",
+        backref=db.backref("parent", remote_side=[id]),
+        lazy="select"
+    )
