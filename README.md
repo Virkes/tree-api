@@ -12,8 +12,8 @@
 
 ### Pokretanje
 
-1. Aktiviraj virtualno okruženje (opcionalno)
-2. Pokreni aplikaciju:
+1. Aktivacija virtualnog okruženja (opcionalno)
+2. Pokretanje aplikacije:
 
    ```bash
    flask run
@@ -49,7 +49,7 @@ Osnovni URL:
 
 * **GET** `/nodes/`
 * dohvaća sve čvorove u bazi
-  * dohvaćanje pojedničnih čvorova bi i dalje zahtjevalo infomaciju o dostupnim id-jevima čvorova
+  * dohvaćanje pojedinačnih čvorova bi i dalje zahtijevalo informaciju o dostupnim id-jevima čvorova
 
 ---
 
