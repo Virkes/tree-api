@@ -94,7 +94,7 @@ def reorder_node(node_id: int, new_order: int):
     )
 
     if new_order < 0 or new_order >= len(siblings):
-        raise ValueError("newIndex out of range")
+        raise ValueError("newOrder out of range")
 
     siblings = [n for n in siblings if n.id != node_id]
 
